@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+        <link rel="stylesheet" href="style.css">
+        <style>*{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            font-family:sans-serif;
+        }
+        body{
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container1{
+            position: absolute;
+            left:44%;
+            top:35%;
+            transform: translate(-50%,-50%);
+            padding: 10px 15px;
+            width: 300px;
+        }
+        
+        .container2{
+            position: absolute;
+            left: 50%;
+            top: 55%;
+            transform: translate(-50%,-50%);
+            padding: 20px 25px;
+            width: 300px;
+        }
+        .container2 h2{
+            text-align: center;
+            color:#47668f;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            border-bottom: 4px solid #ffbd59;
+        }
+        .container2 label{
+            text-align: left;
+            color: #47668f;
+        }
+        .container2 form input{
+            width: calc(100% - 20px);
+            padding: 8px 10px;
+            margin-bottom: 15px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid #ffbd59;
+            color: #47668f;
+            font-size: 20px;
+        }
+        .container2 p{
+            color: #47668f;
+        }
+        button{
+            width: 100%;
+            padding: 5px 0;
+            border: none;
+            background-color:#ffbd59;
+            font-size: 18px;
+            color: #47668f;
+        }
+        </style>
+   
+    <body>
+        <img src = 'bg4.png' height="900" width="1500">
+        <div class ="container1">
+            <img src="name.png" height="500" width="500">
+        </div>
+        <div class="container2">
+        <H2 align = "center">Login</H2>
+            <form>
+                <label>Username</label><br>
+                <input type="text"><br>
+                <label>Password</label><br>
+                <input type="password"><br>
+            </form>
+            <a href = "home.html">
+                <button><b>Log in</b></button>
+            </a><br><br>
+            <p>Belum punya akun? <a href="registrasi.html">Pendaftaran disini</a></p>
+        </div>     
+    </body>
+</html>

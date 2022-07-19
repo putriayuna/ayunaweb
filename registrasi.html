@@ -1,0 +1,37 @@
+<html>
+<head><title>Pendaftaran</title></head>
+<style>
+    
+</style>
+<body bgcolor="#EEE8AA">
+    <img src="name2.png" height="60" width="200" align="right">
+    <h1 align="left">Pendaftaran</h1><br><br>
+    <form action="register.php" method="POST">
+        <fieldset>
+            <legend>User Login Info</legend>
+            <p><label for="idusername">Username:</label> <input id="idusername" type="text" name="username" placeholder="username anda" /></p>
+            <p><label for="idemail">Email:</label> <input id="idemail" type="email" name="email" placeholder="alamat email" /></p>
+            <p><label for="idpassword">Password:</label> <input id="idpassword" type="password" name="password" /></p>
+        </fieldset>
+        <fieldset>
+            <legend>Data Diri Anak</legend>
+            <p><label for="idnamalengkap">Nama Lengkap:</label> <input id="idnamalengkap" type="text" name="namalengkap" placeholder="nama lengkap" /></p>
+            <p><label for="idtanggallahir">Tanggal lahir:</label> <input id="idtanggallahir" type="date" name="tanggallahir" /></p>
+            <p><label for="idusia">Usia:</label> <input id="idusia" type="number" name="usia" placeholder="usia anak" /></p>
+            <p><label>Jenis kelamin:</label>
+            <input type="radio" name="jeniskelamin" value="pria"> Pria
+            <input type="radio" name="jeniskelamin" value="wanita"> Wanita</p>   
+            <p><label for="idalamat">Alamat:</label> <input id="idalamat" type ="text" name="alamat" placeholder="alamat" size="40" /></p>
+        </fieldset> 
+        <fieldset>
+            <legend>Data Diri Orang Tua</legend>
+            <p><label for="idnamalengkap">Nama Lengkap:</label> <input id="idnamalengkap" type="text" name="namalengkap" placeholder="nama lengkap" /></p>  
+            <P><label for="idnohp">No Hp:</label> <input id="idnohp" type="text" name="nohp" placeholder="no hp"/></p>
+            <p><label for="idalamat">Alamat:</label> <input id="idalamat" type ="text" name="alamat" placeholder="alamat" size="40" /></p>
+        </fieldset>     
+        <fieldset>
+            <a href="submit.html" ><input type="button" name="Daftar" value="Daftar" /></a>
+        </fieldset>
+    </form>
+</body>
+</html>

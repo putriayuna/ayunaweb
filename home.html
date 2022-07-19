@@ -1,0 +1,204 @@
+<html>
+<head>
+	<meta charset="utf=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PROJECT</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	
+</head>
+<style>
+* {
+	padding:0;
+	margin:0;
+	font-family: cursive;
+	color:#47668f
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding:5px 0;
+	background-color: #4787c5;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container ul {
+	color: #fff;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding:15px 0;
+	color: #ffbd59;
+}
+header ul {
+	border:1px;
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color:#4787c5;
+	color:#fff;
+}
+.active {
+	background-color:#4787c5;
+	color:#fff;
+}
+.banner {
+	height: 80vh;
+	background-image: url = ('banner1.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+.banner h2 {
+	color:#47668f;
+	z-index:1;
+	padding:20px 25 px;
+	font-family: cursive;
+	border:3px solid #47668f;
+}
+section {
+	padding:50px 0;
+}
+.about h1 {
+	font-family: cursive;
+    color:#47668f
+}
+.about p {
+    font-family: cursive;
+}
+.about h2 {
+    font-family: cursive;
+    color:#47668f
+}
+.contents {
+    height: 500px;
+}
+.contents-item {
+    float: left;
+    margin-right: 40px;
+}
+.contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.contact-form {
+    padding-top: 100px;
+}
+.contents img{
+        width: 250px;
+        height: 320px;
+}
+.about h1 {
+	font-family: cursive;
+    color:#47668f
+}
+</style>
+<body bgcolor=#EAECF5>
+	<!---loader--->
+	<div class="bg-loader">
+		<div class="loader"></div>
+
+	<!---header--->
+	<div class="medsos">
+		<div class="container">
+				<ul id="header">
+					<li><a href = "https://www.instagram.com/edukids.ofc/"><i class="fa-brands fa-instagram-square" ></i></a></li>
+					<li><a href = "https://www.youtube.com/channel/UCXtZYUf47fU6QUd3RMjASbA"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href = "https://twitter.com/edukidsid_"><i class="fa-brands fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+			<a href="home.html">
+				<img src="name2.png" height="70" width="250">
+			</a>
+				<ul>
+					<li class="active"><a href="home.html">HOME</a><li>
+					<li><a href="#pelajaran">PELAJARAN</a></li>
+					<li><a href="#tentang">TENTANG</a></li>
+				</ul>
+			</div>
+		</header><br><br><br>
+	<!---banner--->
+	<section class="banner" align="center">
+		<!--h2>WELCOME TO EDUKIDS</h2--->
+		<img src="hello.gif" height="785" width="1600">
+	</section>
+	<!--pelajaran-->
+	<div class="contents" align="center">
+		<br><br><br><br><br><br><br><br><h1 id="pelajaran">----------------------Pelajaran----------------------</h1><br>
+        <section id="pembelajaran">
+            <div class="contents">
+            <h3 class="section-title">pilih pelajaran di bawah ini:</h3><br>
+            <div class="contents-item">
+			<a href="hewan.html"><img src = "sampulhewan1.jpg" height=300 /></a>
+            <p><a href="hewan.html">Hewan</a><br><br></p></div>
+
+            <div class="contents-item" align="center">
+			<a href="hurufhijaiyah.html"><img src = "klikHijaiyah.PNG" height=300 /></a>
+            <p><a href="hurufhijaiyah.html">Huruf Hijaiyah</a><br><br></p></div>
+ 
+            <div class="contents-item" align="center">
+			<a href="Tata Surya.html"><img src = "sampulplanet1.png" height=300 /></a>
+            <p><a href="Tata Surya.html">Tata Surya</a><br><br></p></div>
+        
+            <div class="contents-item" align="center">
+			<a href="abc.html"><img src = "sampulabc2.jpg" height=300 /></a>
+            <p><a href="abc.html">Alfabet</a><br><br></p></div>
+            </p></section>
+		</div>
+	</div><br><br><br><br>
+	<!---TENTANG-->
+	<div class="about" align = "center">
+		<br><br><br><br><br><br><br><br><br><br><h1 id="tentang">----------------------Tentang----------------------</h1><br><br>
+        <img src = "logo1-removebg-preview.png">
+        <br><br><p align = "center">Edukids merupakan situs web pembelajaran anak gratis untuk anak-anak mulai usia dua tahun hingga tujuh tahun. 
+            Situs ini menyediakan konten interaktif dasar-dasar pembelajaran seperti angka, huruf, nama-nama hewan, 
+            nama-nama planet, matematika dasar, serta huruf hijaiyah dengan tujuan agar anak dapat belajar sambil 
+            bermain walaupun secara daring sehingga dalam kegiatan belajarnya tidak membosankan. Dengan Edukids,
+            orang tua diharapkan dapat mendampingi kegiatan belajar anaknya dengan bijak. Disamping situs ini dapat
+            diakses secara gratis setelah anda memiliki akun, situs ini juga mempunyai keunggulan mudah untuk dipahami 
+            sehingga tidak sulit untuk orang tua mengakses dan mendampingi anaknya belajar dengan situs ini.</p>
+        <br> <br> <br> <br>
+        <h2 align = "center">Our Team</h2> <br> <br>
+        <img src = "pimpi-modified.png" height="80" width="80">
+        <img src = "una-modified.png" height="80" width="80">
+        <p align = "center">Pimpi Haifa Zahra dan Putri Ayuna Qolby Syifa'a</p>
+		<p align ="right"><img src="panah (2).gif" height="150" width="200"></p>
+		<p ALIGN ="RIGHT"><a href="#header">Kembali ke halaman atas</p></div>
+    </div>
+</body>
+</html>
